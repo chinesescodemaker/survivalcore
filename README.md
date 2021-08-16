@@ -1,2 +1,3 @@
-# survivalcore
-A 1.17.1 plugin for survival minecraft, made as a practice to learn plugin.
+# SurvivalCore
+### A 1.17.1 plugin for survival minecraft.
+### This is my first plugin so yea.
