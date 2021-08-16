@@ -14,6 +14,8 @@ public final class SurvivalCore extends JavaPlugin {
         getCommand("bed").setExecutor(new Commands());
         getCommand("help").setExecutor(new Commands());
         getCommand("coords").setExecutor(new Commands());
+        getCommand("kill").setExecutor(new Commands());
+        getCommand("back    ").setExecutor(new Commands());
         getServer().getPluginManager().registerEvents(new WelcomeLeave(), this);
         getServer().getPluginManager().registerEvents(new IhavEyesMermaidEvent(), this);
         getServer().getPluginManager().registerEvents(new ConsoleLog(), this);

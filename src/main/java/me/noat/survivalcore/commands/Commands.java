@@ -1,5 +1,6 @@
 package me.noat.survivalcore.commands;
 
+import me.noat.survivalcore.events.DeathCoords;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.command.Command;
@@ -33,6 +34,16 @@ public class Commands implements CommandExecutor {
                 Player player = (((Player) sender).getPlayer());
                 player.sendMessage("/bed - TP'd to your bed.");
                 player.sendMessage("/coords - Send your coords");
+            }
+            if (command.getName().equalsIgnoreCase("back")) {
+                Player player = (Player) sender;
+                if (DeathCoords.deathCoords != null) {
+                    player.teleport(DeathCoords.deathCoords);
+                }
+            }
+            if (command.getName().equalsIgnoreCase("kill")) {
+                Player player = (Player) sender;
+                player.setHealth(0.0);
             }
         }
         return true;

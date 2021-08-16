@@ -17,3 +17,11 @@ commands:
     description: i dont have f3
     usage: /<command>
     aliases: coords
+  back:
+    description: useful :D
+    usage: /<command>
+    aliases: back
+  kill:
+    description: die
+    usage: /<command>
+    aliases: kill
