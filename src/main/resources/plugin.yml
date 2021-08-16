@@ -1,0 +1,19 @@
+name: SurvivalCore
+version: ${project.version}
+main: me.noat.survivalcore.SurvivalCore
+api-version: 1.17
+authors: [ noatmc ]
+description: a block game plugin
+commands:
+  help:
+    description: help i guess
+    usage: /<command>
+    aliases: help
+  bed:
+    description: tp to ur bed
+    usage: /<command>
+    aliases: bed
+  coords:
+    description: i dont have f3
+    usage: /<command>
+    aliases: coords
