@@ -16,6 +16,6 @@ public class DeathCoords implements Listener {
         int deathY = deathCoords.getBlockY();
         int deathZ = deathCoords.getBlockZ();
 
-        e.getEntity().sendMessage("You've died at " + x + ", " + y + ", " + z);
+        e.getEntity().sendMessage("You've died at " + deathX + ", " + deathY + ", " + deathZ);
     }
 }
